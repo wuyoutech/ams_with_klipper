@@ -399,6 +399,11 @@
               <FileType>1</FileType>
               <FilePath>.\src\Application\systick.c</FilePath>
             </File>
+            <File>
+              <FileName>vision_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\Application\vision_uart.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1025,6 +1030,11 @@
               <FileName>systick.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\src\Application\systick.c</FilePath>
+            </File>
+            <File>
+              <FileName>vision_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\Application\vision_uart.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -1,848 +1,0 @@
-Dependencies for Project 'gd32f303', Target 'App': (DO NOT MODIFY !)
-CompilerVersion: 6210000::V6.21::ARMCLANG
-F (.\src\Application\main.c)(0x67246E11)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/main.o -MD)
-F (.\src\Application\gd32f30x_it.c)(0x61CC215A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_it.o -MD)
-I (src\Application\gd32f30x_it.h)(0x61CC215B)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-I (src\Application\systick.h)(0x61CC215B)
-F (.\src\Application\systick.c)(0x61CC215A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/systick.o -MD)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\CMSIS\GD\GD32F30x\Source\system_gd32f30x.c)(0x65DC4082)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/system_gd32f30x.o -MD)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_adc.c)(0x65DC57E3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_adc.o -MD)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_bkp.c)(0x65DC57E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_bkp.o -MD)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_can.c)(0x65DC57EF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_can.o -MD)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
-F (.\src\Peripherals\Source\gd32f30x_crc.c)(0x65DC57F4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_crc.o -MD)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_ctc.c)(0x65DC57F8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_ctc.o -MD)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_dac.c)(0x65DC57FB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_dac.o -MD)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_dbg.c)(0x65DC57FF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_dbg.o -MD)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_dma.c)(0x65DC5802)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_dma.o -MD)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
-F (.\src\Peripherals\Source\gd32f30x_enet.c)(0x65DC5806)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_enet.o -MD)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
-F (.\src\Peripherals\Source\gd32f30x_exmc.c)(0x65DC580A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_exmc.o -MD)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-F (.\src\Peripherals\Source\gd32f30x_exti.c)(0x65DC580F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_exti.o -MD)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_fmc.c)(0x65DC5813)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_fmc.o -MD)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_fwdgt.c)(0x65DC5818)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_fwdgt.o -MD)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_gpio.c)(0x65DC581C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_gpio.o -MD)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_i2c.c)(0x65DC5820)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_i2c.o -MD)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_misc.c)(0x65DC5824)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_misc.o -MD)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_pmu.c)(0x65DC5827)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_pmu.o -MD)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_rcu.c)(0x65DC582C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_rcu.o -MD)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_rtc.c)(0x65DC5830)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_rtc.o -MD)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_sdio.c)(0x65DC5835)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_sdio.o -MD)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_spi.c)(0x65DC5838)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_spi.o -MD)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_timer.c)(0x65DC583C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_timer.o -MD)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_usart.c)(0x65DC5843)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_usart.o -MD)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\Peripherals\Source\gd32f30x_wwdgt.c)(0x65DC5849)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./src/Peripherals/Include -I ./src/CMSIS -I ./src/Application-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-D__UVISION_VERSION="539" -DGD32F30X_HD-o ./build/objects/gd32f30x_wwdgt.o -MD)
-I (src\Peripherals\Include\gd32f30x_wwdgt.h)(0x65DC57BA)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x66124E13)
-I (src\CMSIS\core_cm4.ho:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x00000000)
-I (src\CMSIS\core_cmInstr.herc\CMSIS\core_cmFunc.h)(0x00000000)
-I (src\CMSIS\core_cm4_simd.h)(0x61CC215C)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x66124E13)
-I (src\Application\gd32f30x_libopt.h)(0x61CC215B)
-I (src\Peripherals\Include\gd32f30x_rcu.h)(0x65DC57A9)
-I (src\Peripherals\Include\gd32f30x_adc.h)(0x65DC5742)
-I (src\Peripherals\Include\gd32f30x_can.h)(0x65DC5756)
-I (src\Peripherals\Include\gd32f30x_crc.h)(0x65DC575B)
-I (src\Peripherals\Include\gd32f30x_ctc.h)(0x65DC5762)
-I (src\Peripherals\Include\gd32f30x_dac.h)(0x65DC5767)
-I (src\Peripherals\Include\gd32f30x_dbg.h)(0x65DC5773)
-I (src\Peripherals\Include\gd32f30x_dma.h)(0x65DC5778)
-I (src\Peripherals\Include\gd32f30x_exti.h)(0x65DC5785)
-I (src\Peripherals\Include\gd32f30x_fmc.h)(0x65DC578A)
-I (src\Peripherals\Include\gd32f30x_fwdgt.h)(0x65DC578F)
-I (src\Peripherals\Include\gd32f30x_gpio.h)(0x65DC5793)
-I (src\Peripherals\Include\gd32f30x_i2c.h)(0x65DC5797)
-I (src\Peripherals\Include\gd32f30x_pmu.h)(0x65DC57A0)
-I (src\Peripherals\Include\gd32f30x_bkp.h)(0x65DC574D)
-I (src\Peripherals\Include\gd32f30x_rtc.h)(0x65DC57A4)
-I (src\Peripherals\Include\gd32f30x_sdio.h)(0x65DC57AE)
-I (src\Peripherals\Include\gd32f30x_spi.h)(0x65DC57B2)
-I (src\Peripherals\Include\gd32f30x_timer.h)(0x65DC57B6)
-I (src\Peripherals\Include\gd32f30x_usart.h)(0x65DC57BF)
-I (src\Peripherals\Include\gd32f30x_misc.h)(0x65DC579B)
-I (src\Peripherals\Include\gd32f30x_enet.h)(0x65DC577C)
-I (src\Peripherals\Include\gd32f30x_exmc.h)(0x65DC5780)
-F (.\src\CMSIS\GD\GD32F30x\Source\ARM\startup_gd32f30x_xd.s)(0x65DC58AC)()
-F (.\src\CMSIS\GD\GD32F30x\Source\ARM\startup_gd32f30x_hd.s)(0x65DC58A6)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-IC:/Users/Administrator/AppData/Local/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 539" -Wa,armasm,--pd,"GD32F30X_HD SETA 1"-o ./build/objects/startup_gd32f30x_hd.o)
-F (.\src\CMSIS\GD\GD32F30x\Source\ARM\startup_gd32f30x_cl.s)(0x65DC5896)()

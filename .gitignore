@@ -1,0 +1,7 @@
+build
+EventRecorderStub.scvd
+*.uvoptx
+*.uvguix.*
+JLinkLog.txt
+JLinkSettings.ini
+.vscode

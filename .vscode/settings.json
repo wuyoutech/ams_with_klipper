@@ -4,6 +4,8 @@
         "systick.h": "c",
         "gd32f30x_rcu.h": "c",
         "gd32f30x_it.h": "c",
-        "keypanel.h": "c"
+        "keypanel.h": "c",
+        "visionserial.h": "c",
+        "vision_uart.h": "c"
     }
 }

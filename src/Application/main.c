@@ -1,15 +1,15 @@
 #include "main.h"
 
+#include "vision_uart.h"
 
-int main(void){
+int main(void) {
     // Note: clock initialized in SystemInit(), 8M External Crystal and 120M CPU clock
     systick_config();
-    keypanel_init();
-
-
-
+    vision_uart_init();
+    while (1) {
+        vision_uart_process();
+    }
 }
-
 
 // this function should never be called
 // if called, it means there is a bug in the code
