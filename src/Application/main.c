@@ -1,13 +1,29 @@
 #include "main.h"
 
-#include "vision_uart.h"
+#include "feeder.h"
+#include "filament_buffer.h"
+#include "led.h"
+#include "systick.h"
+
+void adc_test_task(void) {
+    static uint32_t last_time_ms = 0;
+    if (get_sys_time_ms() - last_time_ms < 50) {
+        return;
+    }
+    last_time_ms = get_sys_time_ms();
+
+    uint16_t result = adc_channel_sample(0);
+}
 
 int main(void) {
-    // Note: clock initialized in SystemInit(), 8M External Crystal and 120M CPU clock
     systick_config();
-    vision_uart_init();
+    led_config();
+    filament_buffer_config();
+    feeder1_config();
+
     while (1) {
-        vision_uart_process();
+        led_blinking_task();
+        adc_test_task();
     }
 }
 

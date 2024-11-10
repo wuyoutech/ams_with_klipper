@@ -10,20 +10,20 @@
       <TargetName>App</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>6210000::V6.21::ARMCLANG</pCCUsed>
+      <pCCUsed>6220000::V6.22::ARMCLANG</pCCUsed>
       <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
-          <Device>GD32F303VC</Device>
+          <Device>GD32F303RC</Device>
           <Vendor>GigaDevice</Vendor>
-          <PackID>GigaDevice.GD32F30x_DFP.2.2.1</PackID>
+          <PackID>GigaDevice.GD32F30x_DFP.2.2.3</PackID>
           <PackURL>https://gd32mcu.com/data/documents/pack/</PackURL>
           <Cpu>IRAM(0x20000000,0x0C000) IROM(0x08000000,0x040000) CPUTYPE("Cortex-M4") FPU2 CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
-          <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0GD32F30x_HD -FS08000000 -FL040000 -FP0($$Device:GD32F303VC$Flash\GD32F30x_HD.FLM))</FlashDriverDll>
+          <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0GD32F30x_HD -FS08000000 -FL040000 -FP0($$Device:GD32F303RC$Flash\GD32F30x_HD.FLM))</FlashDriverDll>
           <DeviceId>0</DeviceId>
-          <RegisterFile>$$Device:GD32F303VC$Device\Include\gd32f30x.h</RegisterFile>
+          <RegisterFile>$$Device:GD32F303RC$Device\Include\gd32f30x.h</RegisterFile>
           <MemoryEnv></MemoryEnv>
           <Cmp></Cmp>
           <Asm></Asm>
@@ -33,7 +33,7 @@
           <SLE66CMisc></SLE66CMisc>
           <SLE66AMisc></SLE66AMisc>
           <SLE66LinkerMisc></SLE66LinkerMisc>
-          <SFDFile>$$Device:GD32F303VC$SVD\GD32F30x_HD.svd</SFDFile>
+          <SFDFile>$$Device:GD32F303RC$SVD\GD32F30x_HD.svd</SFDFile>
           <bCustSvd>0</bCustSvd>
           <UseEnv>0</UseEnv>
           <BinPath></BinPath>
@@ -134,11 +134,11 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>-1</DriverSelection>
+            <DriverSelection>4096</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
-          <Flash3></Flash3>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F30X_HD</Define>
               <Undefine></Undefine>
-              <IncludePath>.\src\Application;.\src\CMSIS;.\src\CMSIS\GD\GD32F30x\Include;.\src\Peripherals\Include;C:\Keil_v5\ARM\ARMCLANG\include</IncludePath>
+              <IncludePath>.\src\Application;.\src\CMSIS;.\src\CMSIS\GD\GD32F30x\Include;.\src\Peripherals\Include;..\..\AppData\Local\Keil_v5\ARM\ARMCLANG\include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -400,9 +400,19 @@
               <FilePath>.\src\Application\systick.c</FilePath>
             </File>
             <File>
-              <FileName>vision_uart.c</FileName>
+              <FileName>led.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\src\Application\vision_uart.c</FilePath>
+              <FilePath>.\src\Application\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>filament_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\Application\filament_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>feeder.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\Application\feeder.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -648,7 +658,7 @@
         <TargetCommonOption>
           <Device>GD32F303VC</Device>
           <Vendor>GigaDevice</Vendor>
-          <PackID>GigaDevice.GD32F30x_DFP.2.2.1</PackID>
+          <PackID>GigaDevice.GD32F30x_DFP.2.2.3</PackID>
           <PackURL>https://gd32mcu.com/data/documents/pack/</PackURL>
           <Cpu>IRAM(0x20000000,0x0C000) IROM(0x08000000,0x040000) CPUTYPE("Cortex-M4") FPU2 CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
@@ -1032,9 +1042,19 @@
               <FilePath>.\src\Application\systick.c</FilePath>
             </File>
             <File>
-              <FileName>vision_uart.c</FileName>
+              <FileName>led.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\src\Application\vision_uart.c</FilePath>
+              <FilePath>.\src\Application\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>filament_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\Application\filament_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>feeder.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\Application\feeder.c</FilePath>
             </File>
           </Files>
         </Group>
