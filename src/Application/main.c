@@ -12,14 +12,17 @@ void adc_test_task(void) {
     }
     last_time_ms = get_sys_time_ms();
 
-    uint16_t result = adc_channel_sample(0);
+    uint16_t channel1 = adc_channel_sample(5);
+    uint16_t channel2 = adc_channel_sample(7);
+    uint16_t channel3 = adc_channel_sample(14);
+    uint16_t channel4 = adc_channel_sample(15);
 }
 
 int main(void) {
     systick_config();
     led_config();
     filament_buffer_config();
-    feeder1_config();
+    feeder_config();
 
     while (1) {
         led_blinking_task();
