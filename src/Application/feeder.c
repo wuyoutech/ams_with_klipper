@@ -9,6 +9,8 @@
 
 // main hall: PC0 PC1 PC2 PC3 // may be
 
+
+
 void feeder_config(void) {
     // config adc for filament sensor
     rcu_periph_clock_enable(RCU_GPIOA);
@@ -21,6 +23,13 @@ void feeder_config(void) {
     gpio_init(GPIOA, GPIO_MODE_AIN, GPIO_OSPEED_10MHZ, GPIO_PIN_7);
     gpio_init(GPIOC, GPIO_MODE_AIN, GPIO_OSPEED_10MHZ, GPIO_PIN_4);
     gpio_init(GPIOC, GPIO_MODE_AIN, GPIO_OSPEED_10MHZ, GPIO_PIN_5);
+
+    // pc 0123 for hall sensor
+    gpio_init(GPIOC, GPIO_MODE_AIN, GPIO_OSPEED_10MHZ, GPIO_PIN_0);
+    gpio_init(GPIOC, GPIO_MODE_AIN, GPIO_OSPEED_10MHZ, GPIO_PIN_1);
+    gpio_init(GPIOC, GPIO_MODE_AIN, GPIO_OSPEED_10MHZ, GPIO_PIN_2);
+    gpio_init(GPIOC, GPIO_MODE_AIN, GPIO_OSPEED_10MHZ, GPIO_PIN_3); 
+
     // config adc mode
     adc_mode_config(ADC_MODE_FREE);
     adc_data_alignment_config(ADC0, ADC_DATAALIGN_RIGHT);
