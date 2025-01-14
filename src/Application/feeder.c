@@ -85,38 +85,3 @@ void feeder4_set_idle(void) {
 }
 
 void mux_set_idle(void) { gpio_bit_reset(GPIOB, GPIO_PIN_14); }
-
-enum feeder_status { feeder_status_idle, feeder_status_feed, feeder_status_reverse_to_release, feeder_status_ready };
-
-int feeder1_status = feeder_status_idle;
-void feeder1_task(void) {
-    switch (feeder1_status) {
-        case feeder_status_idle:
-            // TODO: move adc_channel_sample(5) > 1000 to a function
-            if (adc_channel_sample(5) > 1000) {
-                feeder1_set_forward();
-                feeder1_status = feeder_status_feed;
-            }
-            break;
-        case feeder_status_feed:
-            feeder1_set_forward();
-            // TODO: identify mux module hall sensor status
-
-            if (1) {
-                feeder1_set_idle();
-                feeder1_status = feeder_status_reverse_to_release;
-            }
-        case feeder_status_reverse_to_release:
-            feeder1_set_backward();
-            if (1) {
-                feeder1_set_idle();
-                feeder1_status = feeder_status_ready;
-            }
-            break;
-        case feeder_status_ready:
-            if (1) {
-                feeder_status_idle;
-            }
-            break;
-    }
-}

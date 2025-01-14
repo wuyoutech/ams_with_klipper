@@ -414,6 +414,11 @@
               <FileType>1</FileType>
               <FilePath>.\src\Application\feeder.c</FilePath>
             </File>
+            <File>
+              <FileName>hall.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\Application\hall.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1055,6 +1060,11 @@
               <FileName>feeder.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\src\Application\feeder.c</FilePath>
+            </File>
+            <File>
+              <FileName>hall.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\Application\hall.c</FilePath>
             </File>
           </Files>
         </Group>
