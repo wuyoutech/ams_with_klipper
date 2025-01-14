@@ -41,8 +41,8 @@ void feeder1_set_backward(void) {
     gpio_bit_set(GPIOC, GPIO_PIN_7);
 }
 void feeder1_set_idle(void) {
-    gpio_bit_reset(GPIOC, GPIO_PIN_6);
-    gpio_bit_reset(GPIOC, GPIO_PIN_7);
+    gpio_bit_set(GPIOC, GPIO_PIN_6);
+    gpio_bit_set(GPIOC, GPIO_PIN_7);
 }
 
 void feeder2_set_forward(void) {
@@ -54,8 +54,8 @@ void feeder2_set_backward(void) {
     gpio_bit_set(GPIOC, GPIO_PIN_9);
 }
 void feeder2_set_idle(void) {
-    gpio_bit_reset(GPIOC, GPIO_PIN_8);
-    gpio_bit_reset(GPIOC, GPIO_PIN_9);
+    gpio_bit_set(GPIOC, GPIO_PIN_8);
+    gpio_bit_set(GPIOC, GPIO_PIN_9);
 }
 
 void feeder3_set_forward(void) {
@@ -67,8 +67,8 @@ void feeder3_set_backward(void) {
     gpio_bit_set(GPIOA, GPIO_PIN_9);
 }
 void feeder3_set_idle(void) {
-    gpio_bit_reset(GPIOA, GPIO_PIN_8);
-    gpio_bit_reset(GPIOA, GPIO_PIN_9);
+    gpio_bit_set(GPIOA, GPIO_PIN_8);
+    gpio_bit_set(GPIOA, GPIO_PIN_9);
 }
 
 void feeder4_set_forward(void) {
@@ -80,8 +80,8 @@ void feeder4_set_backward(void) {
     gpio_bit_set(GPIOA, GPIO_PIN_11);
 }
 void feeder4_set_idle(void) {
-    gpio_bit_reset(GPIOA, GPIO_PIN_10);
-    gpio_bit_reset(GPIOA, GPIO_PIN_11);
+    gpio_bit_set(GPIOA, GPIO_PIN_10);
+    gpio_bit_set(GPIOA, GPIO_PIN_11);
 }
 
 void mux_set_idle(void) { gpio_bit_reset(GPIOB, GPIO_PIN_14); }
