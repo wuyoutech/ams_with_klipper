@@ -24,6 +24,5 @@ enum hall_sensor_channel {
     mux_hall4
 };
 
-void hall_sensor_init(void);
-
+void hall_sensor_config(void);
 bool hall_sensor_get_status(uint8_t channel_name);

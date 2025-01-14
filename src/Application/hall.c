@@ -26,7 +26,7 @@ enum hall_sensor_channel {
 
 struct adc_sample_value adc_value;
 
-void hall_sensor_init(void) {
+void hall_sensor_config(void) {
     // config adc for filament sensor
     rcu_periph_clock_enable(RCU_GPIOA);
     rcu_periph_clock_enable(RCU_GPIOC);
@@ -73,10 +73,10 @@ void hall_sensor_init(void) {
     adc_regular_channel_config(ADC0, 1, ADC_CHANNEL_7, ADC_SAMPLETIME_55POINT5);
     adc_regular_channel_config(ADC0, 2, ADC_CHANNEL_14, ADC_SAMPLETIME_55POINT5);
     adc_regular_channel_config(ADC0, 3, ADC_CHANNEL_15, ADC_SAMPLETIME_55POINT5);
-    adc_regular_channel_config(ADC0, 4, ADC_CHANNEL_10, ADC_SAMPLETIME_55POINT5);
-    adc_regular_channel_config(ADC0, 5, ADC_CHANNEL_11, ADC_SAMPLETIME_55POINT5);
-    adc_regular_channel_config(ADC0, 6, ADC_CHANNEL_12, ADC_SAMPLETIME_55POINT5);
-    adc_regular_channel_config(ADC0, 7, ADC_CHANNEL_13, ADC_SAMPLETIME_55POINT5);
+    adc_regular_channel_config(ADC0, 4, ADC_CHANNEL_11, ADC_SAMPLETIME_55POINT5);
+    adc_regular_channel_config(ADC0, 5, ADC_CHANNEL_12, ADC_SAMPLETIME_55POINT5);
+    adc_regular_channel_config(ADC0, 6, ADC_CHANNEL_13, ADC_SAMPLETIME_55POINT5);
+    adc_regular_channel_config(ADC0, 7, ADC_CHANNEL_10, ADC_SAMPLETIME_55POINT5);
 
     adc_external_trigger_source_config(ADC0, ADC_REGULAR_CHANNEL, ADC0_1_2_EXTTRIG_REGULAR_NONE);
     adc_external_trigger_config(ADC0, ADC_REGULAR_CHANNEL, ENABLE);
@@ -91,21 +91,21 @@ void hall_sensor_init(void) {
 bool hall_sensor_get_status(uint8_t channel_name) {
     switch (channel_name) {
         case feeder_hall1:
-            return adc_value.feeder_hall1 > 1000;
+            return adc_value.feeder_hall1 < 500;
         case feeder_hall2:
-            return adc_value.feeder_hall2 > 1000;
+            return adc_value.feeder_hall2 < 500;
         case feeder_hall3:
-            return adc_value.feeder_hall3 > 1000;
+            return adc_value.feeder_hall3 < 500;
         case feeder_hall4:
-            return adc_value.feeder_hall4 > 1000;
+            return adc_value.feeder_hall4 < 500;
         case mux_hall1:
-            return adc_value.mux_hall1 > 1000;
+            return adc_value.mux_hall1 > 3300;
         case mux_hall2:
-            return adc_value.mux_hall2 > 1000;
+            return adc_value.mux_hall2 > 3300;
         case mux_hall3:
-            return adc_value.mux_hall3 > 1000;
+            return adc_value.mux_hall3 > 3300;
         case mux_hall4:
-            return adc_value.mux_hall4 > 1000;
+            return adc_value.mux_hall4 > 3300;
         default:
             return false;
     }
