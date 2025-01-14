@@ -68,3 +68,5 @@ void TIMER4_IRQHandler(void) {
         timer_counter_value_config(TIMER4, 0);
     }
 }
+
+int filament_buffer_get(void) { return dutycycle; }
